@@ -4,11 +4,26 @@ MATLAB/Simulink models for renewable-powered EV charging and supervisory control
 
 **MATLAB · Simulink · Fuzzy logic · PID control**
 
+[![Documentation checks](https://github.com/kedharkota/Hybrid-EMs-with-renewables/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/Hybrid-EMs-with-renewables/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Hybrid Renewable Energy Management: project preview](docs/assets/simulation.png)
+<p align="center">
+  <img src="docs/assets/simulation.png" alt="Hybrid Renewable Energy Management: project preview" width="720" />
+</p>
+
+[Open full-size visual](docs/assets/simulation.png)
 
 *Original fuzzy-controller model figure from the project presentation.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Renewable generation and EV charging control |
+| **Start here** | [CS Final.pptx](CS%20Final.pptx) |
+| **Run mode** | MATLAB/Simulink; model-specific toolboxes and inputs |
+| **Explore** | Source models, controller diagrams, and simulation plots |
 
 ## Overview
 
@@ -23,7 +38,11 @@ A control-systems project exploring how hybrid renewable generation can serve an
 
 ## Workflow
 
-![Project workflow](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Project workflow" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory diagram. Detailed implementation and availability notes follow below.*
 
@@ -67,6 +86,9 @@ The committed presentation includes simulation results and a literature review. 
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -74,6 +96,12 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Solar Forecasting & Battery Scheduling](https://github.com/kedharkota/LLM-Assisted-Energy-Management-System-with-Optimal-Battery-Scheduling)
 
 ---
 
